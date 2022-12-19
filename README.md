@@ -4,9 +4,9 @@
 ## This is a sample test Project Called IoTAfrica, it was develope for test purposes only 
 
 <!-- Italics -->
-*With this application you can buy utility token for your electricity bill, water bill etc.*
+#### With this application you can buy utility token for your electricity bill, water bill etc.*
 
-**Your token record are then store in the user transaction history or dashboard**
+#### Your token record are then store in the user transaction history or dashboard**
 
 ## This project was build with NextJs, Express, and MongoDB.
 
