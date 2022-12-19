@@ -59,7 +59,7 @@ const OrderComponent = () => {
 				<select
 					onChange={(e) => setPlace(e.target.value)}
 					className="inputStyle border py-1 rounded-lg">
-					<option>State</option>
+					<option>Enter your state</option>
 					{statesList?.map((option, index) => {
 						return (
 							<option key={index} className="inputStyle">

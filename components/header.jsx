@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
 	return (
-		<div className="border  px-10 flex flex-row justify-between py-4 items-center absolute top-0 w-full">
+		<div className="border  sm:px-10 px-[20px] flex flex-row justify-between py-4 items-center absolute top-0 w-full">
 			<Image alt="IoTAfrica" src={"/logo.png"} height={"30"} width={"100"} />
 
 			<div className=" md:flex justify-between w-[50%] text-[12px] hidden">

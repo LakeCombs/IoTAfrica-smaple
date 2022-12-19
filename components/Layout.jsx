@@ -20,7 +20,9 @@ export default function Layout({
 			</Head>
 			{header ? <Header /> : <></>}
 
-			<div className="w-full  min-h-screen pt-[65px] bg">{children}</div>
+			<div className="w-full  min-h-screen pt-[65px] pb-[65px] bg">
+				{children}
+			</div>
 			<footer>{footer ? <Footer /> : <></>}</footer>
 		</div>
 	);
