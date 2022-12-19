@@ -23,7 +23,7 @@
 * react-icons for beautiful icons
 * react-paystack for payment integration just to mention a few
 
-### The app is an MVP for the IoTAfrica, whose basic feature are 
+### This app is an MVP for the IoTAfrica, whose basic feature are 
 * login
 * register
 * view your transaction list
