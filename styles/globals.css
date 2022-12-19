@@ -1,26 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, Inter, san-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bg {
+	@apply bg-[#F5F5F5];
 }
 
-* {
-  box-sizing: border-box;
+.gray-text {
+	@apply text-[#B0BAC9];
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.gray-text-primary {
+	@apply text-[#444444];
+}
+
+.inputBoxBG {
+	@apply bg-[#ECF7FD] h-[30px] outline-none px-2;
+}
+
+.primaryBlueBG {
+	@apply bg-[#054C73];
+}
+
+.textBlueBG {
+	@apply text-[#054C73];
+}
+
+.link {
+	@apply hover:text-[#054C73] hover:font-semibold;
+}
+
+.inputStyle {
+	@apply w-full bg-[#ECF7FD] px-3 outline-none p;
+}
+
+.inputDivContainer {
+	@apply flex flex-col w-full mb-[15px];
+}
+
+.buttonStyle {
+	@apply primaryBlueBG sm:py-[7px] py-[5px] md:text-[15px] text-[13px] mt-[20px] w-full text-white font-[12px] rounded-lg hover:bg-[#1b4e69];
+}
+
+.p {
+	@apply md:text-[15px] sm:text-[13px] text-[10px];
 }
