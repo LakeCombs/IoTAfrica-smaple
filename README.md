@@ -35,8 +35,14 @@
 * installment payment
 * sharing utility unit 
 
-### To Install this app
-* run yarn install
+### To run this project on your machine
+```
+    yarn install
+    yarn dev
+
+```
 
 ### To build the app 
-* run yarn build
+```
+    yarn build
+```
