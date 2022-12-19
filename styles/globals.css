@@ -47,7 +47,7 @@ body {
 }
 
 .buttonStyle {
-	@apply primaryBlueBG sm:py-[7px] py-[5px] md:text-[15px] text-[13px] mt-[20px] w-full text-white font-[12px] rounded-lg hover:bg-[#1b4e69];
+	@apply primaryBlueBG sm:py-[7px] py-[5px] md:text-[15px] text-[13px] mt-[20px] w-full text-white font-[12px] rounded-lg hover:bg-[#04344e];
 }
 
 .p {
