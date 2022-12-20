@@ -1,9 +1,7 @@
-<!-- Headings -->
 
 ![IoTAfrica](https://res.cloudinary.com/venture-square/image/upload/v1671486950/logo_tm2mxb.png)
 ## This is a sample test Project Called IoTAfrica, it was develope for test purposes only 
 
-<!-- Italics -->
 #### With this application you can buy utility token for your electricity bill, water bill etc.*
 
 #### Your token record are then store in the user transaction history or dashboard**
@@ -12,7 +10,7 @@
 
 ---
 
-### Other tools used for this project includes
+### Other tools used for this project include
 * jsonwebtoken for generating user token 
 * bcryptjs for hashing user password
 * axios for making api calls

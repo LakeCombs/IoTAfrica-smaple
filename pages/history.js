@@ -17,7 +17,7 @@ export default function History(props) {
 	const router = useRouter();
 	return (
 		<Layout header={true} title="history">
-			<div className="w-full flex flex-row mt-[20px]  md:px-[50px] px-[20px] items-start">
+			<div className="w-full flex flex-row mt-[20px]  md:px-[50px] sm:px-[20px] px-[10px] items-start">
 				<div className="mr-10 w-[25%] hidden md:block">
 					<HistoryOption name={"Quick Purchase"} icon={<FaUserAlt />} />
 					<HistoryOption
@@ -52,7 +52,7 @@ export default function History(props) {
 						</form>
 					</div>
 
-					<table className="w-full table-auto md:mt-[20px] mt-[10px]">
+					<table className="w-full table-auto md:mt-[20px] mt-[10px] ">
 						<thead className="border-b-2 ">
 							<tr className=" p text-[#054C73] mb-[10px]">
 								<td>Date</td>
@@ -62,10 +62,12 @@ export default function History(props) {
 							</tr>
 						</thead>
 						{transactions?.length ? (
-							<tbody className="mt-[20px]">
+							<tbody className="mt-[20px] ">
 								{transactions?.map((tran) => {
 									return (
-										<tr className=" py-3 p" key={tran?._id}>
+										<tr
+											className="py-2 even:bg-[#e7e7e7] hover:cursor-pointeror p"
+											key={tran?._id}>
 											<td>{moment(tran?.createdAt).format("DD MMMM, YYYY")}</td>
 											<td>{tran?._id}</td>
 											<td>{tran?.name?.name}</td>
